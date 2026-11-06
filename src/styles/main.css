@@ -1,0 +1,37 @@
+@import 'tailwindcss';
+
+/* Esquema común con gestión.plusmedical.cl (PlusMedical). */
+@theme {
+  --color-taller-fondo: #f6f4ef;
+  --color-taller-tarjeta: #ffffff;
+  --color-taller-tinta: #1a1d22;
+  --color-taller-suave: #3a5a74;
+  --color-taller-linea: #e5e4e2;
+  --color-taller-acento: #7b1a1d;
+  --color-taller-barra: #0e3754;
+
+  /* Colores de los diagramas. */
+  --color-pagina: #1d4ed8;
+  --color-pagina-clara: #93c5fd;
+  --color-carton: #dc2626;
+  --color-carton-claro: #fca5a5;
+  --color-margen: #16a34a;
+  --color-margen-claro: #86efac;
+  --color-calculado: #ea580c;
+  --color-calculado-claro: #fef3c7;
+
+  --radius-card: 12px;
+  --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+}
+
+@layer base {
+  html {
+    background: var(--color-taller-fondo);
+    color: var(--color-taller-tinta);
+  }
+}
+
+/* Campos numéricos: cifras alineadas y foco visible. */
+input[type='number'] {
+  font-variant-numeric: tabular-nums;
+}
