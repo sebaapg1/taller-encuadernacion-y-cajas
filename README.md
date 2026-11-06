@@ -1,6 +1,6 @@
-# Taller
+# Taller de encuadernación y cajas
 
-Herramientas para hacer libros y cajas a mano. Una sola aplicación web, pensada para correr en un servidor propio (un "Nido") y usarla desde cualquier navegador.
+Herramientas para hacer libros y cajas a mano: encuadernación, tapas duras, portada para imprimir, cajas plegables y cajas rígidas. Una sola aplicación web que corre en cualquier navegador; no requiere cuenta ni envía tus archivos a ningún servidor.
 
 **Versión:** V2.2 · **Licencia:** MIT (con excepciones de terceros, ver abajo)
 
